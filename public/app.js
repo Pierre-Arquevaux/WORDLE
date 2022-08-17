@@ -12,7 +12,7 @@ playAgainBtn.addEventListener('click', () => {
 
 
 const getWordle = () =>{
-    fetch('http://localhost:3000/word')
+    fetch('https://wordle-pierre.herokuapp.com/word')
         .then(response => response.json())
         .then(json => {
             console.log(json);
